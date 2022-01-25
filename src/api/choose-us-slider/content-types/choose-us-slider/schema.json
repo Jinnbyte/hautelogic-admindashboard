@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "choose_us_sliders",
+  "info": {
+    "singularName": "choose-us-slider",
+    "pluralName": "choose-us-sliders",
+    "displayName": "Choose Us Slider",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ChooseUsSliderTitle": {
+      "type": "string"
+    },
+    "ChooseUsSliderDescription": {
+      "type": "text"
+    },
+    "ChooseUsSliderImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    }
+  }
+}

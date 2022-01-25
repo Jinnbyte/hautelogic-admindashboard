@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_banner_section_home_banner_sections",
+  "info": {
+    "displayName": "Home Banner Section",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "BannerPrimaryText": {
+      "type": "text"
+    },
+    "BannerSecondaryText": {
+      "type": "string"
+    },
+    "BannerButtonText": {
+      "type": "string"
+    }
+  }
+}

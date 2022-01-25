@@ -1,0 +1,93 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BannerPrimaryText": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "BannerSecondaryText": {
+      "type": "string"
+    },
+    "BannerButtonText": {
+      "type": "string"
+    },
+    "KnowUsTitle": {
+      "type": "string"
+    },
+    "KnowUsDescription": {
+      "type": "text"
+    },
+    "SolutionOfferingTitle": {
+      "type": "string"
+    },
+    "SolutionOfferingDescription": {
+      "type": "text"
+    },
+    "OurVisionTitle": {
+      "type": "string"
+    },
+    "OurVisionDescription": {
+      "type": "text"
+    },
+    "ChooseUsTitle": {
+      "type": "string"
+    },
+    "ChooseUsDescription": {
+      "type": "text"
+    },
+    "SuccessStoriesTitle": {
+      "type": "string"
+    },
+    "SuccessStoriesDescription": {
+      "type": "text"
+    },
+    "InsightsTitle": {
+      "type": "string"
+    },
+    "InsightsDescription": {
+      "type": "text"
+    },
+    "GetStartedTitle": {
+      "type": "string"
+    },
+    "GetStartedDescription": {
+      "type": "text"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Telephone": {
+      "type": "string"
+    },
+    "Fax": {
+      "type": "string"
+    },
+    "FooterInfoText": {
+      "type": "text"
+    },
+    "FacebookLink": {
+      "type": "string"
+    },
+    "TwitterLink": {
+      "type": "string"
+    },
+    "InstagramLink": {
+      "type": "string"
+    }
+  }
+}
