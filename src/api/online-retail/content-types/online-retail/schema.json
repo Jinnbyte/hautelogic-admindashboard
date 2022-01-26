@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "online_retails",
+  "info": {
+    "singularName": "online-retail",
+    "pluralName": "online-retails",
+    "displayName": "OnlineRetail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BannerPrimaryText": {
+      "type": "text"
+    },
+    "BannerSecondaryText": {
+      "type": "text"
+    },
+    "KeyFeaturesTitle": {
+      "type": "string"
+    },
+    "eCommerceTitle": {
+      "type": "string"
+    },
+    "eCommerceDescription": {
+      "type": "text"
+    },
+    "InventoryManagementTitle": {
+      "type": "string"
+    },
+    "InventoryManagementDescription": {
+      "type": "text"
+    },
+    "CRMLoyaltyTitle": {
+      "type": "string"
+    },
+    "CRMLoyaltyDescription": {
+      "type": "text"
+    },
+    "ParcelShipingTitle": {
+      "type": "string"
+    },
+    "ParcelShipingDescription": {
+      "type": "text"
+    },
+    "FinancialsTitle": {
+      "type": "string"
+    },
+    "FinancialsDescription": {
+      "type": "text"
+    }
+  }
+}

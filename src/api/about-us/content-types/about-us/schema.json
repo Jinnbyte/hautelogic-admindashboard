@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "singularName": "about-us",
+    "pluralName": "about-uses",
+    "displayName": "About Us",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BannerPrimaryText": {
+      "type": "text"
+    },
+    "BannerSecondaryText": {
+      "type": "string"
+    },
+    "BannerButtonText": {
+      "type": "string"
+    },
+    "AboutUsTitle": {
+      "type": "string"
+    },
+    "AboutUsDescription": {
+      "type": "string"
+    },
+    "OurVisionTitle": {
+      "type": "string"
+    },
+    "OurVisionDescription": {
+      "type": "text"
+    },
+    "OurJourneyTitle": {
+      "type": "string"
+    },
+    "OurJourneyDescription": {
+      "type": "text"
+    }
+  }
+}

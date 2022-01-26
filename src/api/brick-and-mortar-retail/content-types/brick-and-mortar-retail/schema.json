@@ -1,0 +1,60 @@
+{
+  "kind": "singleType",
+  "collectionName": "brick_and_mortar_retails",
+  "info": {
+    "singularName": "brick-and-mortar-retail",
+    "pluralName": "brick-and-mortar-retails",
+    "displayName": "Brick&MortarRetail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BannerPrimaryText": {
+      "type": "text"
+    },
+    "BannerSecondaryText": {
+      "type": "text"
+    },
+    "KeyFeaturesTitle": {
+      "type": "string"
+    },
+    "StoreAllocationTitle": {
+      "type": "string"
+    },
+    "StoreAllocationDescription": {
+      "type": "text"
+    },
+    "ModernPOSTitle": {
+      "type": "string"
+    },
+    "ModernPOSDescription": {
+      "type": "text"
+    },
+    "OMNIChannelTitle": {
+      "type": "string"
+    },
+    "OMNIChannelDescription": {
+      "type": "string"
+    },
+    "CRMLoyaltyTitle": {
+      "type": "string"
+    },
+    "CRMLoyaltyDescription": {
+      "type": "text"
+    },
+    "InventoryManagementTitle": {
+      "type": "string"
+    },
+    "InventoryManagementDescription": {
+      "type": "text"
+    },
+    "FinancialsForRetailTitle": {
+      "type": "string"
+    },
+    "FinancialsForRetailDescription": {
+      "type": "text"
+    }
+  }
+}

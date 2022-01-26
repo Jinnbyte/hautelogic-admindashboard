@@ -1,0 +1,72 @@
+{
+  "kind": "singleType",
+  "collectionName": "fashion_whole_sales",
+  "info": {
+    "singularName": "fashion-whole-sale",
+    "pluralName": "fashion-whole-sales",
+    "displayName": "FashionWholeSale"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BannerPrimaryText": {
+      "type": "text"
+    },
+    "BannerSecondaryText": {
+      "type": "text"
+    },
+    "KeyFeaturesTitle": {
+      "type": "string"
+    },
+    "ProductDesignTitle": {
+      "type": "string"
+    },
+    "ProductDesignDescription": {
+      "type": "text"
+    },
+    "PlanningTitle": {
+      "type": "string"
+    },
+    "PlanningDescription": {
+      "type": "text"
+    },
+    "GlobalSourcingTitle": {
+      "type": "string"
+    },
+    "GlobalSourcingDescription": {
+      "type": "text"
+    },
+    "OrderManagementTitle": {
+      "type": "string"
+    },
+    "OrderManagementDescription": {
+      "type": "text"
+    },
+    "LogisticsTitle": {
+      "type": "string"
+    },
+    "LogisticsDescription": {
+      "type": "text"
+    },
+    "DistributionTitle": {
+      "type": "string"
+    },
+    "DistributionDescription": {
+      "type": "text"
+    },
+    "InventoryManagementTitle": {
+      "type": "string"
+    },
+    "InventoryManagementDescription": {
+      "type": "text"
+    },
+    "FinancialTitle": {
+      "type": "string"
+    },
+    "FinancialsDescription": {
+      "type": "text"
+    }
+  }
+}

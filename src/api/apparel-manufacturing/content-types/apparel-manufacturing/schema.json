@@ -1,0 +1,72 @@
+{
+  "kind": "singleType",
+  "collectionName": "apparel_manufacturings",
+  "info": {
+    "singularName": "apparel-manufacturing",
+    "pluralName": "apparel-manufacturings",
+    "displayName": "ApparelManufacturing"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "BannerPrimaryText": {
+      "type": "string"
+    },
+    "BannerSecondaryText": {
+      "type": "text"
+    },
+    "KeyFeaturesTitle": {
+      "type": "string"
+    },
+    "ProductionPlanningTitle": {
+      "type": "string"
+    },
+    "ProductionPlanningDescription": {
+      "type": "text"
+    },
+    "MRPTitle": {
+      "type": "string"
+    },
+    "MRPDescription": {
+      "type": "text"
+    },
+    "OutSourcedProductionTitle": {
+      "type": "string"
+    },
+    "OutSourcedProductionDescription": {
+      "type": "text"
+    },
+    "ShopManagementTitle": {
+      "type": "string"
+    },
+    "ShopManagementDescription": {
+      "type": "text"
+    },
+    "MaterialManagementTitle": {
+      "type": "string"
+    },
+    "MaterialManagementDescription": {
+      "type": "text"
+    },
+    "ProductionCostingTitle": {
+      "type": "string"
+    },
+    "ProductionCostingDescription": {
+      "type": "text"
+    },
+    "QualityManagementTitle": {
+      "type": "string"
+    },
+    "QualityManagementDescription": {
+      "type": "text"
+    },
+    "ContractorCollaborationTitle": {
+      "type": "string"
+    },
+    "ContractorCollaborationDescription": {
+      "type": "text"
+    }
+  }
+}
