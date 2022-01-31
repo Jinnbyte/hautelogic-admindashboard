@@ -9,11 +9,12 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.0.5",
-    "@strapi/plugin-users-permissions": "4.0.5",
     "@strapi/plugin-i18n": "4.0.5",
+    "@strapi/plugin-users-permissions": "4.0.5",
+    "@strapi/strapi": "4.0.5",
+    "mysql": "^2.18.1",
+    "pg": "^8.7.1",
     "sqlite3": "5.0.2"
   },
   "author": {
