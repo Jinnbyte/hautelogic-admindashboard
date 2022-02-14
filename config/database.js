@@ -5,10 +5,10 @@ module.exports = ({ env }) => ({
     client: "postgres",
     connection: {
       host: env("DATABASE_HOST", "tyke.db.elephantsql.com"),
-      database: env("DATABASE_NAME", "busdkgwp"),
-      user: env("DATABASE_USERNAME", "busdkgwp"),
-      password: env("DATABASE_PASSWORD", "S86bZlJcAAZVkj7sI5QDJCmNEKxTRl_o"),
-      port: env.int("DATABASE_PORT", 5452),
+      database: env("DATABASE_NAME", "pwxzwiev"),
+      user: env("DATABASE_USERNAME", "pwxzwiev"),
+      password: env("DATABASE_PASSWORD", "rUd-QZwP6UeS6LiBX-L3jbpEBRbi3d7M"),
+      port: env.int("DATABASE_PORT", 5432),
      
     },
     debug: false,
