@@ -8,7 +8,7 @@ module.exports = ({ env }) => ({
       database: env("DATABASE_NAME", "busdkgwp"),
       user: env("DATABASE_USERNAME", "busdkgwp"),
       password: env("DATABASE_PASSWORD", "S86bZlJcAAZVkj7sI5QDJCmNEKxTRl_o"),
-      port: env.int("DATABASE_PORT", 5432),
+      port: env.int("DATABASE_PORT", 5452),
      
     },
     debug: false,
