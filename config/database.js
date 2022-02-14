@@ -4,12 +4,11 @@ module.exports = ({ env }) => ({
   connection: {
     client: "postgres",
     connection: {
-      host: env("DATABASE_HOST", "127.0.0.1"),
+      host: env("DATABASE_HOST", "tyke.db.elephantsql.com"),
+      database: env("DATABASE_NAME", "busdkgwp"),
+      user: env("DATABASE_USERNAME", "busdkgwp"),
+      password: env("DATABASE_PASSWORD", "S86bZlJcAAZVkj7sI5QDJCmNEKxTRl_o"),
       port: env.int("DATABASE_PORT", 5432),
-      database: env("DATABASE_NAME", "hautelogic"),
-      user: env("DATABASE_USERNAME", "db_user"),
-      password: env("DATABASE_PASSWORD", "admin"),
-      schema: env("DATABASE_SCHEMA", "public"), // Not required
      
     },
     debug: false,
