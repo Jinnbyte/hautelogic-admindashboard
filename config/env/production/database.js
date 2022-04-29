@@ -1,18 +1,19 @@
-const parse = require('pg-connection-string').parse;
+const parse = require("pg-connection-string").parse;
 const config = parse(process.env.DATABASE_URL);
 
-
-module.exports = ({ env }) => ({
-  connection: {
-    client: "mysql",
+module.exports = ({ env }) => {
+  return {
     connection: {
-      host: "jinnbyte-staging.com",
-      port: 3306,
-      database: "jinnbyte_hautelogicdb",
-      user: "jinnbyte_hautelogicuser",
-      password: "-R^ioH6JmoB9",
-      ssl:false,
+      client: "mysql",
+      connection: {
+        host: env("DATABASE_HOST", "jinnbyte-staging.com"),
+        database: env("DATABASE_NAME", "jinnbyte_hautelogicdb"),
+        user: env("DATABASE_USERNAME", "jinnbyte_hautelogicuser"),
+        password: env("DATABASE_PASSWORD", "-R^ioH6JmoB9"),
+        port: env.int("DATABASE_PORT", 3306),
+        ssl: false,
+      },
+      debug: false,
     },
-    debug: false,
-  },
-});
+  };
+};
