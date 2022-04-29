@@ -1,24 +1,26 @@
 {
-  "kind": "singleType",
-  "collectionName": "online_retails",
+  "kind": "collectionType",
+  "collectionName": "home_page_tabs",
   "info": {
-    "singularName": "online-retail",
-    "pluralName": "online-retails",
-    "displayName": "OnlineRetail",
-    "description": ""
+    "singularName": "home-page-tab",
+    "pluralName": "home-page-tabs",
+    "displayName": "HomePage Tabs"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Hero_Title": {
+    "Tab_Name": {
       "type": "string"
     },
-    "Hero_SubTitle": {
+    "Tab_Title": {
       "type": "string"
     },
-    "Hero_Image": {
+    "Tab_Description": {
+      "type": "text"
+    },
+    "Tab_Image": {
       "allowedTypes": [
         "images",
         "files",

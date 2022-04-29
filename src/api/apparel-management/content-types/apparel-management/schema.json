@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "online_retails",
+  "collectionName": "apparel_managements",
   "info": {
-    "singularName": "online-retail",
-    "pluralName": "online-retails",
-    "displayName": "OnlineRetail",
-    "description": ""
+    "singularName": "apparel-management",
+    "pluralName": "apparel-managements",
+    "displayName": "Apparel Management"
   },
   "options": {
     "draftAndPublish": true
@@ -16,7 +15,7 @@
       "type": "string"
     },
     "Hero_SubTitle": {
-      "type": "string"
+      "type": "text"
     },
     "Hero_Image": {
       "allowedTypes": [

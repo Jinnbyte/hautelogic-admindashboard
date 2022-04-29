@@ -1,11 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "online_retails",
+  "collectionName": "fashion_wholesales",
   "info": {
-    "singularName": "online-retail",
-    "pluralName": "online-retails",
-    "displayName": "OnlineRetail",
-    "description": ""
+    "singularName": "fashion-wholesale",
+    "pluralName": "fashion-wholesales",
+    "displayName": "Fashion_Wholesale"
   },
   "options": {
     "draftAndPublish": true
@@ -16,7 +15,7 @@
       "type": "string"
     },
     "Hero_SubTitle": {
-      "type": "string"
+      "type": "text"
     },
     "Hero_Image": {
       "allowedTypes": [

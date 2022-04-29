@@ -12,32 +12,77 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "BannerPrimaryText": {
+    "Hero_SubTitle": {
+      "type": "string"
+    },
+    "Hero_Title": {
       "type": "text"
     },
-    "BannerSecondaryText": {
+    "Hero_Button_Text": {
       "type": "string"
     },
-    "BannerButtonText": {
+    "Hero_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "Aboutus_Title": {
       "type": "string"
     },
-    "AboutUsTitle": {
+    "Aboutus_Description": {
+      "type": "richtext"
+    },
+    "Aboutus_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "OurVision_Title": {
       "type": "string"
     },
-    "AboutUsDescription": {
+    "OurVision_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "OurJourney_Title": {
       "type": "string"
     },
-    "OurVisionTitle": {
-      "type": "string"
+    "OurJourney_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
     },
-    "OurVisionDescription": {
-      "type": "text"
+    "OurJourney_Description": {
+      "type": "richtext"
     },
-    "OurJourneyTitle": {
-      "type": "string"
+    "OurVision_Description": {
+      "type": "richtext"
     },
-    "OurJourneyDescription": {
-      "type": "text"
+    "Contact_Section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.contact"
     }
   }
 }

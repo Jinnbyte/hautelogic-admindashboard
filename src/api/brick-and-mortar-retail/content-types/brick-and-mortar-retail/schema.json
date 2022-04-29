@@ -4,57 +4,29 @@
   "info": {
     "singularName": "brick-and-mortar-retail",
     "pluralName": "brick-and-mortar-retails",
-    "displayName": "Brick&MortarRetail"
+    "displayName": "Brick and Motar Retail",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "BannerPrimaryText": {
+    "Hero_Title": {
+      "type": "string"
+    },
+    "Hero_SubTitle": {
       "type": "text"
     },
-    "BannerSecondaryText": {
-      "type": "text"
-    },
-    "KeyFeaturesTitle": {
-      "type": "string"
-    },
-    "StoreAllocationTitle": {
-      "type": "string"
-    },
-    "StoreAllocationDescription": {
-      "type": "text"
-    },
-    "ModernPOSTitle": {
-      "type": "string"
-    },
-    "ModernPOSDescription": {
-      "type": "text"
-    },
-    "OMNIChannelTitle": {
-      "type": "string"
-    },
-    "OMNIChannelDescription": {
-      "type": "string"
-    },
-    "CRMLoyaltyTitle": {
-      "type": "string"
-    },
-    "CRMLoyaltyDescription": {
-      "type": "text"
-    },
-    "InventoryManagementTitle": {
-      "type": "string"
-    },
-    "InventoryManagementDescription": {
-      "type": "text"
-    },
-    "FinancialsForRetailTitle": {
-      "type": "string"
-    },
-    "FinancialsForRetailDescription": {
-      "type": "text"
+    "Hero_Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
     }
   }
 }

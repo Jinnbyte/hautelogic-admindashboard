@@ -4,13 +4,13 @@ const config = parse(process.env.DATABASE_URL);
 
 module.exports = ({ env }) => ({
   connection: {
-    client: 'postgres',
+    client: 'mysql',
     connection: {
-      host: config.host,
-      port: config.port,
-      database: config.database,
-      user: config.user,
-      password: config.password,
+      host: "jinnbyte-staging.com",
+      port: 3306,
+      database: "jinnbyte_hautelogicdb",
+      user: "jinnbyte_hautelogicuser",
+      password: "D8EY1vnESjTk",
       ssl: {
         rejectUnauthorized: false
       },

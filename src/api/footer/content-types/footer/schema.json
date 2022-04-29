@@ -12,19 +12,25 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "FooterInfoText": {
-      "type": "text"
-    },
-    "FooterAddress": {
+    "Facebook_Link": {
       "type": "string"
     },
-    "FooterTel": {
+    "Twitter_Link": {
       "type": "string"
     },
-    "FooterFax": {
+    "Instagram_Link": {
       "type": "string"
     },
-    "FooterEmail": {
+    "Footer_Address": {
+      "type": "string"
+    },
+    "Footer_Email": {
+      "type": "string"
+    },
+    "Footer_Phone": {
+      "type": "string"
+    },
+    "Footer_Fax": {
       "type": "string"
     }
   }
