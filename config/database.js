@@ -9,7 +9,6 @@ module.exports = ({ env }) => ({
       user: env("DATABASE_USERNAME", "root"),
       password: env("DATABASE_PASSWORD", "admin"),
       port: env.int("DATABASE_PORT", 3306),
-     
     },
     debug: false,
   },

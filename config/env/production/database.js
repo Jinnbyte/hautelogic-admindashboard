@@ -4,18 +4,15 @@ const config = parse(process.env.DATABASE_URL);
 
 module.exports = ({ env }) => ({
   connection: {
-    client: 'mysql',
+    client: "mysql",
     connection: {
       host: "jinnbyte-staging.com",
       port: 3306,
       database: "jinnbyte_hautelogicdb",
       user: "jinnbyte_hautelogicuser",
-      password: "D8EY1vnESjTk",
-      ssl: {
-        rejectUnauthorized: false
-      },
+      password: "-R^ioH6JmoB9",
+      ssl:false,
     },
     debug: false,
   },
 });
-
